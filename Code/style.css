@@ -26,15 +26,25 @@ hr{
 h3{
     color: #FF66C4 !important;
     font-family: glacial;
-    padding-left: 10%;
     font-size: 36px !important;
+}
+h4{
+    color: white;
+    font-family: HK;
 }
 p{
     color: white;
     font-family: HK;
-    padding-left: 10%;
-    padding-right: 10%;
+
     font-size: x-large;
+}
+.p-black{
+    color: black;
+    font-size: medium;
+}
+.contact_header{
+    color: white;
+    padding-left: 10%;
 }
 .h1_down{
     padding-top: 20%;
@@ -48,7 +58,7 @@ h1, h2{
     text-align: center;
 }
 .intro_para{
-    padding-bottom: 2%;
+    padding-bottom: 0%;
 }
 @media screen and (max-width: 400px) {
     h3{
@@ -61,6 +71,9 @@ h1, h2{
     }
     h1, h3{
         padding-left: 5%;
+    }
+    .contact_header{
+        padding-left: 0%;
     }
 }
 
@@ -77,12 +90,11 @@ h1, h2{
   }
   #one {
     float:left; 
-    margin-right:20px;
+    margin-right:auto;
     width: 50%;
   }
   #two { 
     overflow:hidden;
-    margin:10px;
     min-height:170px;
   }
   
@@ -106,6 +118,14 @@ h1, h2{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.navbar-inner{
+    color: white !important;
+    font-family: HK !important;
+    font-size: xx-large !important;
+    font-weight: bolder;
+    border: white;
+    border-width: 20px;
 }
 /* ------------------------ */
 /* Button Animations */
@@ -146,5 +166,59 @@ h1, h2{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    height: 300px;
     border-radius: 20px;
+}
+.img_center_contact{
+    width: 10%;
+}
+#prev-show{
+    text-align: center;
+    padding-right: 10%;
+}
+@media screen and (max-width: 400px) {
+    .img_center{
+        width: 90%;
+        height: auto;
+    }
+    .map-center{
+        padding-left: -10% !important;
+    }
+    .img_center_contact{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    }
+}
+/* ------------------------ */
+/* Testimonials */
+/* ------------------------ */
+.card-img{
+    height: 200px;
+}
+/* ------------------------ */
+/* Contacts */
+/* ------------------------ */
+.map-center{
+    padding-left: 10% !important;
+}
+.contatc{
+    border: #2B233D;
+}
+.img_center_contacts{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-right: 10%;
+}
+.divsdd{
+   max-width: 60%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.card-body{
+    height: 30% !important;
 }
