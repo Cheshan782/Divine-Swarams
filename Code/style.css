@@ -105,6 +105,9 @@ h1, h2{
       width:auto;
       border:0;  
     }
+    .prev-show-item{
+        width: 100% !important;
+    }
   }
 
 
@@ -122,16 +125,21 @@ h1, h2{
 .navbar-inner{
     color: white !important;
     font-family: HK !important;
-    font-size: xx-large !important;
-    font-weight: bolder;
-    border: white;
-    border-width: 20px;
+    font-size: large !important;
 }
+.prev-show-item{
+    width: 200px;
+}
+@media screen and (max-width: 990px) {
+   .prev-show-item{
+       width: 100% !important;
+   }
+ }
 /* ------------------------ */
 /* Button Animations */
 /* ------------------------ */
 .btn-1{
-    width: 200px;
+    width: 300px;
     height: 5%;
     border: none;
     color: white;
@@ -154,6 +162,19 @@ h1, h2{
     text-decoration: none;
     color: white;
     font-family: HK;
+}
+.btn-2{
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    box-shadow: inset 0 0 0 0 #FF66C4;
+    transition: ease-out 1s;
+    font-size: 1rem;
+    outline: none;
+    text-decoration: none;
+}
+.btn-2:hover{
+    box-shadow: inset 300px 0 0 0 #FF66C4;
 }
 /* ------------------------ */
 /* Previous Shows */
@@ -190,6 +211,9 @@ h1, h2{
         margin-right: auto;
         width: 10%;
     }
+    .divsdd{
+        min-width: 100%;
+    }
 }
 /* ------------------------ */
 /* Testimonials */
@@ -221,4 +245,9 @@ h1, h2{
 }
 .card-body{
     height: 30% !important;
+    padding-bottom: 10% !important;
+}
+
+.Testi{
+    color: #FF9BD8;
 }
