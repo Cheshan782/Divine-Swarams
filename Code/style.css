@@ -141,6 +141,9 @@ h1, h2{
    .prev-show-item{
        width: 100% !important;
    }
+   .divsdd{
+        min-width: 100%;
+   }
  }
 /* ------------------------ */
 /* Button Animations */
