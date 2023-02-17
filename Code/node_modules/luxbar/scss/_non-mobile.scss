@@ -1,0 +1,54 @@
+@media screen and (min-width: 768px) {
+    .luxbar-navigation {
+        flex-flow: row;
+        justify-content: flex-end;
+    }
+
+    .luxbar-hamburger {
+        display: none;
+    }
+
+    .luxbar-checkbox {
+        &:not(:checked) ~.luxbar-menu {
+            overflow: visible;
+        }
+
+        &:checked ~.luxbar-menu {
+          height: $luxbar-height;
+        }
+    }
+
+    .luxbar-menu {
+        .luxbar-item {
+            border-top: 0;
+        }
+
+    }
+
+    .luxbar-menu-right .luxbar-header {
+        margin-right: auto;
+    }
+
+    .dropdown {
+        height: $luxbar-height;
+
+        &:hover > ul {
+            position: absolute;
+            left: 0;
+            top: $luxbar-height;
+            padding: 0;
+        }
+
+        > ul {
+            display: none;
+
+            .luxbar-item {
+                padding: 5px 10px;
+
+                a {
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+}
