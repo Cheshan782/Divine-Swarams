@@ -10,7 +10,7 @@
     src: url(./Fonts/hk-grotesk/HKGrotesk-Light.otf);
 }
 body{
-    background-image: url("./img/gradient.png");
+    background-image: url("./img/Background_img.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -41,6 +41,9 @@ p{
 .p-black{
     color: black;
     font-size: medium;
+}
+.p-contact{
+    padding-left: 10%;
 }
 .contact_header{
     color: white;
@@ -74,6 +77,9 @@ h1, h2{
     }
     .contact_header{
         padding-left: 0%;
+    }
+    .p-contact{
+        padding: 0%;
     }
 }
 
@@ -126,6 +132,7 @@ h1, h2{
     color: white !important;
     font-family: HK !important;
     font-size: large !important;
+    border-color: transparent !important; 
 }
 .prev-show-item{
     width: 200px;
@@ -172,6 +179,7 @@ h1, h2{
     font-size: 1rem;
     outline: none;
     text-decoration: none;
+    border-radius: 4px;
 }
 .btn-2:hover{
     box-shadow: inset 300px 0 0 0 #FF66C4;
@@ -250,4 +258,10 @@ h1, h2{
 
 .Testi{
     color: #FF9BD8;
+}
+.contact-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
